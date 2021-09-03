@@ -9,7 +9,7 @@ import <%=packageName%>.service.ElasticsearchIndexService;
 <%_ if (useHeaderUtilFromLibrary) { _%>
 import io.github.jhipster.web.util.HeaderUtil;
 <%_ } else { _%>
-import <%=packageName%>.web.rest.util.HeaderUtil;
+import tech.jhipster.web.util.HeaderUtil;
 <%_ } _%>
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
